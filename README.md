@@ -39,7 +39,7 @@ Dengan akurasi sebesar tersebut, model prediksi ini dapat menjadi alat yang sang
 
 Menguji Hasil Deployment
 Pada tahap ini menguji hasil deployment dengan menjalankan Aplikasi di Webisite : Predictive Analytics using Real-time Sensor Data
-http://www.cgdistrictm.com/
+http://www.cgdistrictm.com/ (Mozilla Browser rekomendasi)
 
 
 
