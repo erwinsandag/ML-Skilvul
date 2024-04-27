@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <title>Mentor AI & IoT</title>
+    
+    <link href="styles/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>      
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>  
+    <link href='https://fonts.googleapis.com/css?family=Pontano Sans' rel='stylesheet'> 
+    
+    <!-- Memanggil versi terbaru TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+    <!--  -->
+  </head>
+  <body onload="myFunction()" style="margin:0;">
+    <div class = "header">
+      <img src="styles/logo.jpg"></img>
+    </div>
+    
+    <!-- Add a <div> tag with the "main" class -->
+    <div class = "main">
+    <div class="container">
+      <img src="styles/tensorflow_logo.png"></img>
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+      <link href='https://fonts.googleapis.com/css?family=Archivo Narrow' rel='stylesheet'>
+      
+      <h1>Tensorflow.js</h1>
+      <h2>Case Study: Predictive Analytics using Real-time Sensor Data</h2>
+      
+      <h3>
+      <p>
+        Business Context:
+        You are hired as an AIoT engineer to develop a system that predicts the upcoming 
+        month's electricity bill and identifies the electronic devices contributing the most to the cost. The system utilizes real-time sensor data collected from various household appliances.
+      </p>
+      <p>
+        Business Context:
+        Data:
+
+        The data gathered by the ESP32 microcontroller consists of:
+        
+        ●	Voltage (V)
+        ●	Ampere (A)
+        ●	Timestamp
+        ●	Device ID (identifies specific appliance - TV, AC, Lamp, PC, Refrigerator)
+        
+      </p>
+      </h3>
+      
+    </div>
+    </div>
+    
+    <div class="container">
+    <div class = "demo">
+      <h1>Thank you for your visit!</h1>
+      <h2>We are committed to providing our customers with a fantastic experience, and your feedback helps us make that possible.</h2>
+      <br><br>
+      <div id="loaderlabel"<h2>Loading Model...</h2></div>
+      <div id="loader"> </div>   
+           <div style="display:none;" id="mainAPP">
+                <label for="inputDateTime">Pilih Tanggal Akhir bulan: </label><br><br>
+                <input type="datetime-local" id="tanggalawal"><br><br>
+                <div class="inline-checkboxes">
+    <label for="device">Pilih Peralatan:</label>
+    <input type="checkbox" id="TV" name="device" value="1">
+    <label for="TV">TV</label>
+    <input type="checkbox" id="AC" name="device" value="1">
+    <label for="AC">AC</label>
+    <input type="checkbox" id="Lamp" name="device" value="1">
+    <label for="Lamp">Lamp</label>
+    <input type="checkbox" id="PC" name="device" value="1">
+    <label for="PC">PC</label>
+    <input type="checkbox" id="Refrigerator" name="device" value="1">
+    <label for="Refrigerator">Refrigerator</label>
+</div>
+
+
+                </select>
+              
+                <button class="button" style="vertical-align:middle" onclick="onClick()"><span>Biaya Listrik</span></button>
+                <p></p>
+</div>  
+          
+    </div>
+      <!-- Memanggil script.js -->
+      <script src="script.js"></script>
+      <!--  -->
+  </body>
+</html>
