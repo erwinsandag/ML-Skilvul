@@ -33,8 +33,13 @@ Ini menunjukkan bahwa model prediksi yang dikembangkan memiliki tingkat akurasi 
 
 Dengan akurasi sebesar tersebut, model prediksi ini dapat menjadi alat yang sangat berguna bagi perusahaan distribusi listrik untuk merencanakan produksi energi secara efisien dan mengelola kebutuhan pasokan energi dengan lebih baik.
 
+ Deploy Model ML Menggunakan TensorFlow.js :
+ Memuat dan menjalankan model pada Web Browser dengan TensorFlow.js API.
+ Menguji hasil deployment dengan membuat prediksi dari input yang diberikan.
 
-
+Menguji Hasil Deployment
+Pada tahap ini menguji hasil deployment dengan menjalankan Aplikasi di Webisite : Predictive Analytics using Real-time Sensor Data
+http://www.cgdistrictm.com/
 
 
 
